@@ -1,0 +1,16 @@
+	database command line
+
+1. to show all database from mysql server
+- show databases;
+
+2. select *from sakila.inventory;
+
+3. select *from city;
+
+4. use databasename;
+use world;
+To show table from selected database
+show tables;
+select *from city;
+
+all clean - system cls

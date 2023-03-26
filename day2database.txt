@@ -1,0 +1,135 @@
+create database;
+
+use databasename;
+
+to delete database
+drop database databasename;
+
+drop database ok_testing;
+
+use sample;
+create table
+creat tabletbname
+(col1 datatype,
+col2 datatype,....);
+
+
+create table employee
+(emp_name varchar(35),
+address varchar(50),
+salary int);
+
+
+To describe table strusture
+desc tablename;
+
+desc employee;
+
+drop table employee;
+
+insert query in table
+insert into tableName values;
+
+insert into employee values("John","Yangon",300000);
+insert into employee values("Mars","Marvius",300000);
+
+To rename table
+rename table oldTabName to newTableName;
+(or)
+alter table employeeinfo rename to employee;
+
+
+==================
+
+table opertaion
+
+to rename a cloumn
+alter table tablename rename old cloname to new col name
+
+alter table employee rename column address to emp_address;
+
+to add new cloumn
+alter table tablename addcloumn)name cloumn DataType;
+
+alter table employee add age int;
+
+to modify existing cloumn datatype
+alter table tablename modify colName_newdatatype;
+alter table employee modify emp_address varchar(60);
+
+to delete a cloumn from a table
+alter table tblname drop column colname;
+
+alter table employee drop column age;
+
+=========
+
+insert into employee (emp_name) values("Kyaw Kyaw");
+insert into employee (emp_name,emp_address) values ("Frank","Sun");
+
+======
+
+constraint
+1. not null
+create table demo1
+(id int,
+name varchar(20) not null)
+
+insert into demo1 values(1,"Aung Aung");
+
+insert into demo1 (id) values (2);
+
+insert into demo1 (name) values("Kyaw Kyaw");
+
+==========================
+
+2. Unique - not duplicate
+create table demo2
+(id int unique,
+name varchar(20)); 
+
+insert into demo2 values (1,"Khine");
+
+insert into demo2 values (1,"Aye Aye");
+insert into demo2 values (2,"Aye Aye");
+insert into demo2 (name) values("Hla Hla");
+insert into demo2 (name) valuse("Maung Maung");
+===============================
+
+3. primary key (not null and unique)
+create talbe demo3
+(id int,
+name varchar(20);
+primary key(id));
+
+insert into demo3 values (1,"Aung Aung");
+insert into demo3 values (2,"Aye Aye");
+insert into demo3(name) values ("Hla Hla");
+
+=================================
+
+4. foreign key (linking two tables) - used other table's primary key
+parent table
+create table parentb
+(id int,
+name varchar(20),
+primary key(id));
+
+child table
+create table childtb
+(child_id int,
+cname varchar(20),
+id int,
+primary key(child_id),
+foreign key (id) references parentb(id));
+
+inserting data into parent table
+
+insert into parentb values (1,"U Aung");
+insert into parentb values (2,"U Hla");
+insert into parentb values (3,"Daw Mu");
+
+--------------
+
+insert into childtb values (100,"Aung Aung",1);
+insert into childtb values (102,"Mu Mu",3);

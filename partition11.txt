@@ -1,0 +1,19 @@
+1.diskpart
+2.list disk
+3.select disk
+4.create partition primary size = 1024
+5.format fs=ntfs quick lable=Chit_Lay
+6.assign
+7.list partition
+8.create partition primary size = 1024
+9.format fs=ntfs quick lable=Thel_Lay
+10.assign
+11. create partition extend
+12. create partition logical size=20480
+13. format fs=ntfs qucik label=Babae_lay
+14.assign
+15.creat partition logical 
+16. format fs=ntfs qucik label=KaLay_Kalay
+17.assign
+18.list partition
+

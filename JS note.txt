@@ -1,0 +1,11 @@
+Arithmetic Operators
+ + - / * ** % ++ --
+
+Assignment Operators
+=(တူညီတယ်) += -= /= %= **=
+
+Comparison Operators
+== (တူညီလား) === != !== > < >= <= ?
+
+Logical Operators
+&& || !

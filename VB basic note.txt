@@ -1,0 +1,103 @@
+[Yesterday 9:43 AM] Aung Zayar Myint
+7.12.2022
+ITP
+
+Sub Main(args As String())
+Console.Writeline("Enter your first name")
+Dim fitstName as String = Nothing
+firstName = Console.ReadLine()
+console.Writeline("Enter your last name")
+Dim lastName As String = Consoole.Readline()
+Console.Writeline("Hello " = firstName = "" = lastName)
+
+
+
+Dim num1 As Integer = Console.Readline()
+Dim num2 As Integer = Console.Readline()
+Dim ans As Integer = num1 + num2
+Console.Readline("The sum of two integer" + ans.ToString())
+
+
+
+
+Console.Writeline("Please Enter an integer numbers")
+Dim num1 As Integer = Console.Readline()
+If ((num1 mod 2) = 0) Then    Console.Writeline(num1.ToString() + "is even number")
+Else    Console.Writeline(num1.ToString() + "is odd number")
+
+
+
+
+Console.WriteLine("Please Enter a String")
+Dim inputStr As String = Console.Readline()
+Console.Writeline(inputStr.Length)
+
+
+
+
+Console.WriteLine("Please Enter a String")
+Dim NRC As String = Console.Readline()
+Console.Writeline(NRC.Length)
+Dim i As Integer=(NRC.IndexOf("/")
+Dim state As String = NRC.Substring(0, i)
+Dim j As Integer = NRC.IndexOf("(")
+Dim city As String = NRC.SubString(i + 1, j - 3)
+Console.Writeline(st)
+Select Case st    Case "1"        Console.Writeline("This NRC is in Kachin State")    Case "2"        Console.Writeline("This NRC is Kayah State")    Case "3"        Console.Writeline("This NRC is Kayin State")    Case "4"        Console.Writeline("This NRC is Chin State")    Case "5"        Console.Writeline("This NRC is Sagaing State")    Case "6"        Console.Writeline("This NRC is Tanintharyi Region)    Case "7"        Console.Writeline("This NRC is Bago Region)    Case "8"        Console.Writeline("This NRC is Magway Region)    Case "9"        Console.Writeline("This NRC is Mandalay Region)    Case "10"        Console.Writeline("This NRC is Mon State)    Case "11"        Console.Writeline("This NRC is Rakhine State)    Case "12"        Console.Writeline("This NRC is Yangon Region)    Case "13"        Console.Writeline("This NRC is Shan Region)    Case "14"        Console.Writeline("This NRC is Ayeyarwady Region)    Case "15"        Console.Writeline("This NRC is Naypyitaw Region)
+Console.Writeline(NRC.IndexOf("/").ToString())
+
+End Select
+Console.Writeline("This NRC is in "+city)
+
+
+
+Din num1 As Integer = Nothing
+
+For num1 = 100 To 1 Step -5    If (num1 = 70) Then        Exit For    End If    Console.Writeline(num1)
+Next
+
+
+
+looping ta put sr
+
+Din num1 As Integer = Nothing
+
+For num1 = 100 To 1 Step -5    If (num1 = 70) Then        Continue For    End If    Console.Writeline(num1)
+Next
+
+
+
+looping two put (Ali Program)
+
+Din num1 As Integer = Nothing
+
+For num1 = 1 To 12        For num2 = 1 To 12     Dim ans As Integer = num1*num2     Console.Writeline("" + num1.ToString + "X" num2.ToString + "=" + ans.ToString())    Next    Console.Writeline()
+
+
+
+Do Until
+
+Dim num1 As Integer = Nothing (From 0 ka sa)
+Do Until num1 = 10
+Console.Writeline(num1)
+num1 += 1
+Loop
+
+
+
+Do While
+
+Dim num1 As Integer = 1 (1 ka sa)
+Do While(num1 <= 15)    Console.Writeline(num1)    num 1+= 1
+Loop
+
+
+
+
+(File - New project - windows forms app)
+choose name
+choose location
+view - toolbox
+
+MessageBox.Show("Welcome From Myanmar", "Welcome", MessageBoxButtons.OK, MessageBoxIcon.Hand)
+

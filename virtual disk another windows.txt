@@ -1,0 +1,8 @@
+dism /getwiminfo /wimfile:E:\Sources\install.wim
+
+dism /apply-image /imagefile:E:/sources/install.wim /index:1 /applydir:F:\
+
+bcdboot F:\Windows
+
+shutdown -r -t 00 -f
+

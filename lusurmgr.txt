@@ -1,0 +1,9 @@
+Lusrmgr command line
+
+net user /add user1
+
+net user /add "AyeAye"
+
+net user 
+
+net user /delete user1
